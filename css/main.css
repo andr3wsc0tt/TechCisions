@@ -14,24 +14,38 @@
         flex-grow: 1;
     }
 
-    .top-box
+    #pre-project
     {
-        height: 100px;
-        width: 100px;
+        display: grid;
+        grid-template: 100%;
+        justify-items: center;    
     }
 
-    .centered
+    #initiation
+    {
+        display: grid;
+        grid-template: 100%;
+        justify-items: center;
+    }
+
+    .squish
+    {
+        height: 173px;
+        width: 100%;
+        display: grid;
+        justify-items: center;
+    }
+    .squish .plan
     {
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        top:0;
+    }
+    .squish .tool
+    {
+        position: absolute;
+        bottom:0;
     }
 
-    .button
-    {
-        border: none;
-    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -50,32 +64,41 @@
     {
         flex-grow: 1;
     }
-    .top-box
-    {
-        height: 100px;
-        width: 100px;
-    }
-
-    .centered
-    {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
     .row
     {
         display: block;
     }
+    #pre-project
+    {
+        display: grid;
+        grid-template: 100%;
+        justify-items: center;    
+    }
+    #initiation
+    {
+        display: grid;
+        grid-template: 100%;
+        justify-items: center;
+    }
 
-    .card
+    .squish
     {
-        text-align: center;
+        height: 173px;
+        width: 100%;
+        display: grid;
+        justify-items: center;
     }
-    .button
+    .squish .plan
     {
-        border: none;
+        position: absolute;
+        top:0;
     }
+    .squish .tool
+    {
+        position: absolute;
+        bottom:0;
+    }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
