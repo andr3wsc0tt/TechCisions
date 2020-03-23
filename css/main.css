@@ -63,6 +63,11 @@
     {
         display: block;
     }
+
+    .card
+    {
+        text-align: center;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
