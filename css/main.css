@@ -81,6 +81,22 @@
         justify-items: center;
     }
 
+    #planning
+    {
+        display:grid;
+        grid-template-rows: 20% 80%;
+        justify-items: center;
+    }
+
+    .plan-container
+    {
+        display:grid;
+        grid-template-rows: 25% 25% 25% auto auto;
+        border: solid black 2px;
+        height: 55vh;
+        width: 60vw;
+    }
+
     .squish
     {
         height: 173px;
