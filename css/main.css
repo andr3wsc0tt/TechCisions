@@ -40,10 +40,17 @@
     }
     .top-box
     {
-        height: 50px;
-        width: 50px;
+        height: 100px;
+        width: 100px;
     }
-    
+
+    .centered
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

@@ -29,6 +29,10 @@ console.log(boxes);
 var box_obj = new Box();
 console.log(boxes[0]);
 boxes[0].title = box_obj.hoverMessage;
+boxes[0].parentElement.style.position = "relative";
+boxes[0].parentElement.style.textAlign = "center";
+var child = boxes[0].parentElement.childNodes;
+child[3].textContent = "Example";
 
 // var template_obj = new Templates();
 // console.log(boxes[0]);
