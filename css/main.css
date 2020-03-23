@@ -28,6 +28,10 @@
         transform: translate(-50%, -50%);
     }
 
+    .button
+    {
+        border: none;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -67,6 +71,10 @@
     .card
     {
         text-align: center;
+    }
+    .button
+    {
+        border: none;
     }
 }
 

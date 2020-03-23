@@ -43,6 +43,9 @@ init_Templates = () =>
     for (let i = 0; i < boxes.length; i++)
     {
         boxes[i].title = box_obj.retHovMsg();
+        boxes[i].style.backgroundImage = "url('./resources/curvy-box.png')";
+        boxes[i].style.backgroundSize = "100px 100px";
+        boxes[i].style.border = "none";
         boxes[i].parentElement.style.position = "relative";
         boxes[i].parentElement.style.textAlign = "center";
     }
@@ -55,6 +58,9 @@ init_Tools = () =>
     for (let i = 0; i < boxes.length; i++)
     {
         boxes[i].title = box_obj.retHovMsg();
+        boxes[i].style.backgroundImage = "url('./resources/flipped-curvy-box.png')";
+        boxes[i].style.backgroundSize = "100px 100px";
+        boxes[i].style.border = "none";
         boxes[i].parentElement.style.position = "relative";
         boxes[i].parentElement.style.textAlign = "center";
     }
