@@ -1,15 +1,48 @@
+@media only screen and (max-width: 600px) 
+{
+    .btn.btn-primary
+    {
+        background-color: red;
+        text-align: center;
+        margin: 1px;
+        border-radius: 0;
+        border: solid black 1px;
+        width: 100%;
+    }
+    .nav-item
+    {
+        flex-grow: 1;
+    }
+
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) 
+{
+    .btn.btn-primary
+    {
+        background-color: red;
+        text-align: center;
+        border-radius: 0;
+        margin: 1px;
+        border: solid black 1px;
+        width: 100%;
+    }
+    .nav-item
+    {
+        flex-grow: 1;
+    }
+    
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) 
+{
+
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) 
 {
-    .box-class
-    {
-        height: 100px;
-        width: 100px;
-    }
+    
 }
