@@ -32,7 +32,9 @@ boxes[0].title = box_obj.hoverMessage;
 boxes[0].parentElement.style.position = "relative";
 boxes[0].parentElement.style.textAlign = "center";
 var child = boxes[0].parentElement.childNodes;
-child[3].textContent = "Example";
+child[3].textContent = "Business Case";
+child[3].title = box_obj.hoverMessage;
+child[3].style.userSelect = "none";
 
 // var template_obj = new Templates();
 // console.log(boxes[0]);
