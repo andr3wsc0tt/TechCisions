@@ -1,10 +1,10 @@
-* {
+html, body {
     background-color: #fcf7f8;
     font-family: tahoma, georgia;
 }
 
 .container {
-    padding: 50px;
+    padding: 10px 100px 10px 100px;
 }
 
 
@@ -16,5 +16,13 @@
 @media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .logo {
+        padding: 20px;
+    }
+
+footer {
+    text-align: center;
+}
+}
 
