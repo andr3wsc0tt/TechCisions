@@ -36,26 +36,27 @@ class Templates extends Box
         heading2.innerHTML = text;
         newName.document.body.appendChild(heading1);
         newName.document.body.appendChild(heading2);
-        
-        var unorder = newName.document.createElement("ul");
-        var unLabel = newName.document.createElement('h3');
+
+        var heading3 = newName.document.createElement("h3");
+        var heading4 = newName.document.createElement("h3");
+        var dlLink = newName.document.createElement('a');
         var tempLink = newName.document.createElement('a');
 
-        unLabel.innerHTML = "Other Templates:";
-        newName.document.body.append(unLabel);
-        newName.document.body.appendChild(unorder);
-        
-        for (let i = 0; i < 5; i++)
-        {
-            var listItem = newName.document.createElement("li");
-            listItem.innerHTML = `Template ${i}`;
-            unorder.appendChild(listItem);
-        }
+        heading3.innerHTML = "Download: ";
+        heading3.style.display = "inline";
+        dlLink.innerHTML = name;
+        dlLink.href = `downloads.${filename}.html`;
+        dlLink.style.display = "block";
+        newName.document.body.append(heading3);
+        newName.document.body.append(dlLink);
 
-        tempLink.innerHTML = name;
-        tempLink.href = `www.${filename}.html`;
+        heading4.innerHTML = `Knowledge base - ${name} : `;
+        heading4.style.display = "inline";
+        tempLink.innerHTML = `knowledge-base.${filename}.com`;
+        tempLink.href = `knowledge-base.${filename}.com`;
+        newName.document.body.append(heading4);
         newName.document.body.append(tempLink);
-
+        
         /*  
             New Window
             Description of the template
