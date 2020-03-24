@@ -42,6 +42,13 @@
         justify-items: center;
     }
 
+    #closing
+    {
+        display:grid;
+        grid-template: 100%;
+        justify-items: center;
+    }
+
     .squish
     {
         height: 129px;
@@ -95,6 +102,40 @@
         margin-left:2vw;
         border-radius: 10px;
     }
+
+    #closing
+    {
+        display:grid;
+        grid-template: 100%;
+        justify-items: center;
+    }
+
+    .closing-container
+    {
+        display:grid;
+        grid-template-rows: auto auto auto auto auto;
+        border: solid black 2px;
+        justify-content: center;
+        width: 90%;
+        grid-row-gap: 2vh;
+    }
+
+    #clos-1
+    {
+        border-radius: 10px;
+        height: 10vw;
+    }
+    #clos-2
+    {
+        border-radius: 10px;
+        height: 10vw;
+    }
+    #clos-3
+    {
+        border-radius: 10px;
+        height: 10vw;
+    }
+
     #exec-1
     {
         justify-content: space-around;
@@ -161,6 +202,39 @@
         grid-template-rows: 11% 80%;
         height:85vh;
         justify-items: center;
+    }
+
+    #closing
+    {
+        display:grid;
+        grid-template: 100%;
+        justify-items: center;
+    }
+
+    .closing-container
+    {
+        display:grid;
+        grid-template-rows: auto auto auto auto auto;
+        border: solid black 2px;
+        justify-content: center;
+        width: 90%;
+        grid-row-gap: 3vh;
+    }
+
+    #clos-1
+    {
+        border-radius: 10px;
+        height: 5vw;
+    }
+    #clos-2
+    {
+        border-radius: 10px;
+        height: 5vw;
+    }
+    #clos-3
+    {
+        border-radius: 10px;
+        height: 5vw;
     }
 
     .plan-container
