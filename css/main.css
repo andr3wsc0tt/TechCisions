@@ -109,6 +109,13 @@
         height:85vh;
         justify-items: center;
     }
+    #execution
+    {
+        display:grid;
+        grid-template-rows: 11% 80%;
+        height:85vh;
+        justify-items: center;
+    }
 
     .plan-container
     {
@@ -116,6 +123,27 @@
         grid-template-rows: auto auto auto auto auto;
         border: solid black 2px;
         width: 90%;
+    }
+
+    .execution-container
+    {
+        display:grid;
+        grid-template-rows: auto auto auto auto auto auto;
+        border: solid black 2px;
+        border-radius: 10px;
+        width: 90%;
+        justify-content: center;
+        grid-row-gap: 2vh;
+        padding: 5px;
+    }
+
+    .execution-container button
+    {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        margin-right:2vw;
+        margin-left:2vw;
+        border-radius: 10px;
     }
 
     .squish
@@ -196,6 +224,22 @@
         padding-right: 2vw;
     }
 
+    #exec-1
+    {
+        justify-content: space-around;
+    }
+    #exec-2
+    {
+        justify-content: center;
+    }
+    #exec-5
+    {
+        justify-content: center;
+    }
+    #exec-6
+    {
+        flex-direction: row-reverse;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
