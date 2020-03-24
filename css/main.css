@@ -33,6 +33,7 @@
         display:grid;
         grid-template-rows: 12% 80%;
         justify-items: center;
+        border: black solid 1px;
     }
 
     .squish
@@ -43,7 +44,6 @@
     }
     .squish .plan
     {
-        /* position: absolute; */
         top:0;
     }
     .squish .tool
