@@ -28,22 +28,43 @@
         justify-items: center;
     }
 
+    #planning
+    {
+        display:grid;
+        grid-template-rows: 12% 80%;
+        justify-items: center;
+    }
+
     .squish
     {
-        height: 173px;
-        width: 100%;
+        height: 129px;
         display: grid;
         justify-items: center;
     }
     .squish .plan
     {
-        position: absolute;
+        /* position: absolute; */
         top:0;
     }
     .squish .tool
     {
         position: absolute;
         bottom:0;
+    }
+    #flowchart
+    {
+        display: block;
+    }
+
+    .plan-container
+    {
+        width: 100%;
+    }
+
+    .baseline-row
+    {
+        display: flex;
+        justify-content: center;
     }
 
 }
@@ -105,7 +126,7 @@
     }
     .squish .plan
     {
-        position: absolute;
+        /* position: absolute; */
         top:0;
     }
     .squish .tool
@@ -117,7 +138,62 @@
     .baseline-row
     {
         display: flex;
-        justify-content: space-around;
+
+    }
+
+    #baseline-1
+    {
+        justify-content: center;
+    }
+
+    #baseline-1 .squish
+    {
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    #baseline-2
+    {
+        justify-content: center;
+    }
+
+    #baseline-2 .squish
+    {
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+    .lone-button
+    {
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    #baseline-3
+    {
+        justify-content: center;
+    }
+    #baseline-3 .squish
+    {
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+    #baseline-4
+    {
+        justify-content: center;
+    }
+    #baseline-4 .squish
+    {
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+    #baseline-5
+    {
+        justify-content: center;
+    }
+    #baseline-5 .squish
+    {
+        padding-left: 2vw;
+        padding-right: 2vw;
     }
 
 }
