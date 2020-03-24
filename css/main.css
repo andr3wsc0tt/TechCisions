@@ -84,23 +84,22 @@
     #planning
     {
         display:grid;
-        grid-template-rows: 20% 80%;
+        grid-template-rows: 11% 80%;
+        height:85vh;
         justify-items: center;
     }
 
     .plan-container
     {
         display:grid;
-        grid-template-rows: 25% 25% 25% auto auto;
+        grid-template-rows: auto auto auto auto auto;
         border: solid black 2px;
-        height: 55vh;
-        width: 60vw;
+        width: 90%;
     }
 
     .squish
     {
-        height: 173px;
-        width: 100%;
+        height: 130px;
         display: grid;
         justify-items: center;
     }
@@ -113,6 +112,12 @@
     {
         position: absolute;
         bottom:0;
+    }
+
+    .baseline-row
+    {
+        display: flex;
+        justify-content: space-around;
     }
 
 }

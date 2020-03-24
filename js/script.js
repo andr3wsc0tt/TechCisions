@@ -44,10 +44,10 @@ init_Templates = () =>
     {
         boxes[i].title = box_obj.retHovMsg();
         boxes[i].style.backgroundImage = "url('./resources/plan.png')";
-        boxes[i].style.backgroundSize = "100px 100px";
+        boxes[i].style.backgroundSize = "75px 75px";
         boxes[i].style.mixBlendMode = "multiply";
-        boxes[i].style.height = "100px";
-        boxes[i].style.width = "100px";
+        boxes[i].style.height = "75px";
+        boxes[i].style.width = "75px";
         boxes[i].style.border = "none";
         boxes[i].parentElement.style.position = "relative";
         boxes[i].parentElement.style.textAlign = "center";
@@ -62,10 +62,10 @@ init_Tools = () =>
     {
         boxes[i].title = box_obj.retHovMsg();
         boxes[i].style.backgroundImage = "url('./resources/tool.png')";
-        boxes[i].style.backgroundSize = "100px 100px";
+        boxes[i].style.backgroundSize = "75px 75px";
         boxes[i].style.mixBlendMode = "multiply";
-        boxes[i].style.height = "100px";
-        boxes[i].style.width = "100px";
+        boxes[i].style.height = "75px";
+        boxes[i].style.width = "75px";
         boxes[i].style.border = "none";
         boxes[i].parentElement.style.position = "relative";
         boxes[i].parentElement.style.textAlign = "center";
