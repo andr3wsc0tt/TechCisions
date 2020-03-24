@@ -31,9 +31,8 @@
     #planning
     {
         display:grid;
-        grid-template-rows: 12% 80%;
+        grid-template-rows: 12% 90%;
         justify-items: center;
-        border: black solid 1px;
     }
 
     .squish
@@ -58,6 +57,7 @@
 
     .plan-container
     {
+        border: black solid 1px;
         width: 100%;
     }
 
