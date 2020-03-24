@@ -35,50 +35,17 @@
         justify-items: center;
     }
 
-    #execution
-    {
-        display:grid;
-        grid-template: 100%;
-        justify-items: center;
-    }
-
-    #closing
-    {
-        display:grid;
-        grid-template: 100%;
-        justify-items: center;
-    }
-
-    .squish
-    {
-        height: 129px;
-        display: grid;
-        justify-items: center;
-    }
-    .squish .plan
-    {
-        top:0;
-    }
-    .squish .tool
-    {
-        position: absolute;
-        bottom:0;
-    }
-    #flowchart
-    {
-        display: block;
-    }
-
     .plan-container
     {
         border: black solid 1px;
         width: 100%;
     }
 
-    .baseline-row
+    #execution
     {
-        display: flex;
-        justify-content: center;
+        display:grid;
+        grid-template: 100%;
+        justify-items: center;
     }
 
     .execution-container
@@ -103,6 +70,25 @@
         border-radius: 10px;
     }
 
+    #exec-1
+    {
+        justify-content: space-around;
+    }
+    #exec-2
+    {
+        justify-content: center;
+    }
+    #exec-5
+    {
+        justify-content: center;
+    }
+    #exec-6
+    {
+        justify-content: start;
+        flex-direction: row-reverse;
+    }
+
+    
     #closing
     {
         display:grid;
@@ -136,23 +122,31 @@
         height: 10vw;
     }
 
-    #exec-1
+    .squish
     {
-        justify-content: space-around;
+        height: 129px;
+        display: grid;
+        justify-items: center;
     }
-    #exec-2
+    .squish .plan
     {
+        top:0;
+    }
+    .squish .tool
+    {
+        position: absolute;
+        bottom:0;
+    }
+    #flowchart
+    {
+        display: block;
+    }
+
+    .baseline-row
+    {
+        display: flex;
         justify-content: center;
-    }
-    #exec-5
-    {
-        justify-content: center;
-    }
-    #exec-6
-    {
-        justify-content: start;
-        flex-direction: row-reverse;
-    }
+    }    
 
 }
 
@@ -187,6 +181,7 @@
         display: grid;
         grid-template: 100%;
         justify-items: center;
+        grid-row-gap: 2vh;
     }
 
     #planning
@@ -196,12 +191,60 @@
         height:85vh;
         justify-items: center;
     }
+
+    .plan-container
+    {
+        display:grid;
+        grid-template-rows: auto auto auto auto auto;
+        border: solid black 2px;
+        width: 90%;
+    }
+
     #execution
     {
         display:grid;
         grid-template-rows: 11% 80%;
         height:85vh;
         justify-items: center;
+    }
+
+    
+    .execution-container
+    {
+        display:grid;
+        grid-template-rows: auto auto auto auto auto auto;
+        border: solid black 2px;
+        border-radius: 10px;
+        width: 90%;
+        justify-content: center;
+        grid-row-gap: 2vh;
+        padding: 5px;
+    }
+
+    .execution-container button
+    {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        margin-right:2vw;
+        margin-left:2vw;
+        border-radius: 10px;
+    }
+
+    #exec-1
+    {
+        justify-content: space-around;
+    }
+    #exec-2
+    {
+        justify-content: center;
+    }
+    #exec-5
+    {
+        justify-content: center;
+    }
+    #exec-6
+    {
+        flex-direction: row-reverse;
     }
 
     #closing
@@ -235,35 +278,6 @@
     {
         border-radius: 10px;
         height: 5vw;
-    }
-
-    .plan-container
-    {
-        display:grid;
-        grid-template-rows: auto auto auto auto auto;
-        border: solid black 2px;
-        width: 90%;
-    }
-
-    .execution-container
-    {
-        display:grid;
-        grid-template-rows: auto auto auto auto auto auto;
-        border: solid black 2px;
-        border-radius: 10px;
-        width: 90%;
-        justify-content: center;
-        grid-row-gap: 2vh;
-        padding: 5px;
-    }
-
-    .execution-container button
-    {
-        padding-left: 5vw;
-        padding-right: 5vw;
-        margin-right:2vw;
-        margin-left:2vw;
-        border-radius: 10px;
     }
 
     .squish
@@ -344,22 +358,7 @@
         padding-right: 2vw;
     }
 
-    #exec-1
-    {
-        justify-content: space-around;
-    }
-    #exec-2
-    {
-        justify-content: center;
-    }
-    #exec-5
-    {
-        justify-content: center;
-    }
-    #exec-6
-    {
-        flex-direction: row-reverse;
-    }
+   
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
