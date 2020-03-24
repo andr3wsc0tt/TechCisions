@@ -7,34 +7,17 @@ html, body {
     padding: 10px 100px 10px 100px;
 }
 
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-       
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
     .logo {
-        padding: 30px;
-    }
-    img {
-        padding-left: 35%;
+    margin: auto;
+    width: 70%;
+    padding: 30px;
     }
 
     h2 {
         font-size: 20px;
-
     }
     
 footer {
     text-align: center;
-}
 }
 
