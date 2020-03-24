@@ -35,6 +35,13 @@
         justify-items: center;
     }
 
+    #execution
+    {
+        display:grid;
+        grid-template: 100%;
+        justify-items: center;
+    }
+
     .squish
     {
         height: 129px;
@@ -65,6 +72,45 @@
     {
         display: flex;
         justify-content: center;
+    }
+
+    .execution-container
+    {
+        display:grid;
+        grid-template-rows: auto auto auto auto auto auto;
+        border: solid black 2px;
+        border-radius: 10px;
+        width: 90%;
+        justify-content: center;
+        grid-row-gap: 2vh;
+        padding: 5px;
+    }
+
+    .execution-container button
+    {
+        height: 5vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        margin-right:2vw;
+        margin-left:2vw;
+        border-radius: 10px;
+    }
+    #exec-1
+    {
+        justify-content: space-around;
+    }
+    #exec-2
+    {
+        justify-content: center;
+    }
+    #exec-5
+    {
+        justify-content: center;
+    }
+    #exec-6
+    {
+        justify-content: start;
+        flex-direction: row-reverse;
     }
 
 }
