@@ -18,7 +18,15 @@ html, body {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .logo {
-        padding: 20px;
+        padding: 30px;
+    }
+    img {
+        padding-left: 35%;
+    }
+
+    h2 {
+        font-size: 20px;
+
     }
 
 footer {
