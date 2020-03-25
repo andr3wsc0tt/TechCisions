@@ -86,28 +86,102 @@
 @media only screen and (min-width: 600px) 
 {
 
-html, body {
-    background-color: #fcf7f8;
-    font-family: tahoma, georgia;
-}
-
-.container {
-    display: grid;
-    justify-content: left;
-}
-
-    .logo {
-    display: grid;
-    justify-content: center;
-    margin: 2vw;
+    html, body {
+        background-color: #fcf7f8;
+        font-family: tahoma, georgia;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 4vh;
+        font-weight: bold;
+        text-align: left;
     }
     
-footer {
-    text-align: center;
-}
+    .log-container
+    {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 1vh;
+        height: 5vh;
+        width: 100%;
+        
+    }
+
+    .sign-container
+    {
+        display: grid;
+        justify-content: center;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        margin-top: 5vh;
+    }
+
+    .sign-container p
+    {
+        font-size: 2.5vh;
+    }
+
+    footer {
+        text-align: center;
+    }
+    #logo-id
+    {
+        margin-right: 7vw;
+        height: 5vh;
+    }
+
+    .head-class
+    {
+        margin-top: 2vh;
+        display: flex;
+    }
+
+    .sign-container form
+    {
+        display: grid;
+        justify-content: left;
+    }
+
+    .form-class
+    {
+        display: flex;
+        flex-grow: inherit;
+    }
+
+    .form-class .form-group
+    {
+        height: 4vh;
+        padding: 0px;
+        margin-top: 0.5vh;
+        margin-left: 1vh;
+        margin-bottom: 0;
+    }
+
+    .form-class .form-group .form-control
+    {
+        height: 3vh;
+        padding: 0px;
+        font-size: 2vh;
+        border-radius: 0;
+    }
+
+    .form-class .btn
+    {
+        margin-top: 0.5vh;
+        margin-left: 2vw;
+        height: 3vh;
+        line-height: 1.5vh;
+        border-radius: 0;
+        white-space: nowrap;
+    }
+
+    #uname
+    {
+        width: 12vw;
+    }
+    #form-email
+    {
+        width: 20vw;
+    }
 
 }
