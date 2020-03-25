@@ -60,7 +60,7 @@
         padding: 5px;
     }
 
-    .execution-container button
+    /* .execution-container button
     {
         height: 5vh;
         padding-left: 5vw;
@@ -68,7 +68,7 @@
         margin-right:2vw;
         margin-left:2vw;
         border-radius: 10px;
-    }
+    } */
 
     #exec-1
     {
@@ -101,7 +101,7 @@
         display:grid;
         grid-template-rows: auto auto auto auto auto;
         border: solid black 2px;
-        justify-content: center;
+        justify-items: center;
         width: 90%;
         grid-row-gap: 2vh;
     }
@@ -173,13 +173,11 @@
     #pre-project
     {
         display: grid;
-        grid-template: 100%;
         justify-items: center;    
     }
     #initiation
     {
         display: grid;
-        grid-template: 100%;
         justify-items: center;
         grid-row-gap: 2vh;
     }
@@ -223,10 +221,11 @@
 
     .execution-container button
     {
-        padding-left: 5vw;
-        padding-right: 5vw;
-        margin-right:2vw;
-        margin-left:2vw;
+        /* padding-left: 5vw;
+        padding-right: 5vw; */
+        /* margin-right:2vw;
+        margin-left:2vw;  */
+        max-width: 15vw;
         border-radius: 10px;
     }
 
@@ -237,6 +236,21 @@
     #exec-2
     {
         justify-content: center;
+    }
+    #exec-3
+    {
+        justify-content: space-around;
+    }
+
+    #exec-3 button
+    {
+        margin-right:2vw;
+        margin-left:2vw; 
+    }
+
+    #exec-4
+    {
+        justify-content: space-around;
     }
     #exec-5
     {
@@ -259,7 +273,7 @@
         display:grid;
         grid-template-rows: auto auto auto auto auto;
         border: solid black 2px;
-        justify-content: center;
+        justify-items: center;
         width: 90%;
         grid-row-gap: 3vh;
     }
