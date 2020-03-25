@@ -27,36 +27,50 @@ class Templates extends Box
     {
         var filename = name;
         filename = filename.replace(/\s+/g, '-').toLowerCase();
-        var newName = window.open();
-        
-        var heading1 = newName.document.createElement("h1");
-        var heading2 = newName.document.createElement("h2");
-        var text = ' Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, dolorem. ';
-        heading1.innerHTML = name;
-        heading2.innerHTML = text;
-        newName.document.body.appendChild(heading1);
-        newName.document.body.appendChild(heading2);
+        var newName = window.open('../popUp.html');
 
-        var heading3 = newName.document.createElement("h3");
-        var heading4 = newName.document.createElement("h3");
-        var dlLink = newName.document.createElement('a');
-        var tempLink = newName.document.createElement('a');
+        newName.onload = function()
+        {
 
-        heading3.innerHTML = "Download: ";
-        heading3.style.display = "inline";
-        dlLink.innerHTML = name;
-        dlLink.href = `downloads.${filename}.html`;
-        dlLink.style.display = "block";
-        newName.document.body.append(heading3);
-        newName.document.body.append(dlLink);
+            var heading1 = newName.document.createElement("h1");
+            var heading2 = newName.document.createElement("h2");
+            var text = ' Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, dolorem. ';
+            heading1.innerHTML = name;
+            heading2.innerHTML = text;
 
-        heading4.innerHTML = `Knowledge base - ${name} : `;
-        heading4.style.display = "inline";
-        tempLink.innerHTML = `knowledge-base.${filename}.com`;
-        tempLink.href = `knowledge-base.${filename}.com`;
-        newName.document.body.append(heading4);
-        newName.document.body.append(tempLink);
-        
+            newName.document.body.appendChild(heading1);
+            newName.document.body.appendChild(heading2);
+
+            var heading3 = newName.document.createElement("h3");
+            var heading4 = newName.document.createElement("h3");
+            var dlLink = newName.document.createElement('a');
+            var tempLink = newName.document.createElement('a');
+
+            heading3.innerHTML = "Download: ";
+            heading3.style.display = "inline";
+            dlLink.innerHTML = name;
+            dlLink.href = "./login.html";
+            dlLink.style.display = "block";
+            newName.document.body.append(heading3);
+            newName.document.body.append(dlLink);
+
+            heading4.innerHTML = `Knowledge base - ${name} : `;
+            heading4.style.display = "inline";
+            tempLink.innerHTML = `knowledge-base.${filename}.com`;
+            tempLink.href = `knowledge-base.${filename}.com`;
+            newName.document.body.append(heading4);
+            newName.document.body.append(tempLink);
+            
+            newName.console.log(newName.document.body);
+            
+            for (var el in body)
+            {
+                newName.write(el);
+            }
+
+            newName.document.close();
+                    
+        }
         /*  
             New Window
             Description of the template
@@ -82,8 +96,11 @@ class Activities extends Box
     {
         var filename = name;
         filename = filename.replace(/\s+/g, '-').toLowerCase();
-        var newName = window.open();
-        
+        var newName = window.open('../popUp.html');
+
+        newName.onload = function()
+        {
+
         var heading1 = newName.document.createElement("h1");
         var heading2 = newName.document.createElement("h2");
         var text = ' Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, dolorem. ';
@@ -111,6 +128,14 @@ class Activities extends Box
         tempLink.href = `www.${filename}.html`;
         newName.document.body.append(tempLink);
         
+        for (var el in body)
+        {
+            newName.write(el);
+        }
+
+        newName.document.close();
+                
+    }
 
 
         /*

@@ -17,6 +17,11 @@
         
     }
 
+    h2 
+    {
+        font-size: 5vw;
+    }
+
     .nav-item
     {
         flex-grow: 1;
