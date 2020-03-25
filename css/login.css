@@ -43,6 +43,8 @@
     .head-class
     {
         display: flex;
+        padding-bottom: 2vh;
+        border-bottom: solid blue 1px;
     }
 
     .form-class
@@ -134,6 +136,7 @@
     {
         margin-top: 2vh;
         display: flex;
+        border-bottom: solid blue 2px;
     }
 
     .sign-container form
