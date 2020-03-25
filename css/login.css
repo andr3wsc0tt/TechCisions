@@ -1,0 +1,23 @@
+html, body {
+    background-color: #fcf7f8;
+    font-family: tahoma, georgia;
+}
+
+.container {
+    padding: 10px 100px 10px 100px;
+}
+
+    .logo {
+    margin: auto;
+    width: 70%;
+    padding: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+    
+footer {
+    text-align: center;
+}
+

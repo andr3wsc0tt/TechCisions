@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechCisions Project Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projematic</title>
+
+  <!-- Vendor Styles: -->
+  <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+
+  <!-- Vendor Scripts: -->
+  <script type="text/javascript" src="./vendor/jquery/js/jquery.min.js"></script>
+  <script type="text/javascript" src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Style(s): -->
+  <link rel="stylesheet" href="./css/main.css">
+
+  <!-- Script(s): -->
+  <script type="text/javascript" src="./js/scripts.js" defer></script>
 </head>
 <body>
-    
+  
+  <button class="tablink" onclick="openPage('pre', this, '#00E6E6')" id="defaultOpen">PRE-PROJECT</button>
+  <button class="tablink" onclick="openPage('init', this, '#00E6E6')">INITIATION</button>
+  <button class="tablink" onclick="openPage('plan', this, '#00E6E6')">PLANNING</button>
+  <button class="tablink" onclick="openPage('execute', this, '#00E6E6')">EXECUTION</button>
+  <button class="tablink" onclick="openPage('Closing', this, '#00E6E6')">CLOSING</button>
+  
+  <div id="pre" class="tabcontent">
+    <h3>Organization validate the need</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium ad ab, incidunt reprehenderit hic perspiciatis, debitis veritatis id deserunt sit sint obcaecati cum molestias qui ipsum iusto error consequatur. Voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore rem laborum beatae adipisci quam, in iste ipsum atque tenetur, reprehenderit accusamus sunt illo eligendi, non vero deleniti. Alias, voluptas numquam!   Who closing atarts here we are and what we do. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti velit sapiente cum quo fugit laboriosam? Saepe sed, eaque architecto sint ea, facere rerum aspernatur temporibus modi doloremque atque recusandae repudiandae! Home is where the heart is.. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium ad ab, incidunt reprehenderit hic perspiciatis, debitis veritatis id deserunt sit sint obcaecati cum molestias qui ipsum iusto error consequatur. Voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore rem laborum beatae adipisci quam, in iste ipsum atque tenetur, reprehenderit accusamus sunt illo eligendi, non vero deleniti. Alias, voluptas numquam!   Who closing atarts here we are and what we do. Lorem ipsum dolor </p>
+  </div>
+  
+  <div id="init" class="tabcontent">
+    <h3>Project sponsored and project manager define the project</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium ad ab, incidunt reprehenderit hic perspiciatis, debitis veritatis id deserunt sit sint obcaecati cum molestias qui ipsum iusto error consequatur. Voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore rem laborum beatae adipisci quam, in iste ipsum atque tenetur, reprehenderit accusamus sunt illo eligendi, non vero deleniti. Alias, voluptas numquam!   Who closing atarts here we are and what we do. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti velit sapiente cum quo fugit laboriosam? Saepe sed, eaque architecto sint ea, facere rerum aspernatur temporibus modi doloremque atque recusandae repudiandae!Some news this fine day!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium ad ab, incidunt reprehenderit hic perspiciatis, debitis veritatis id deserunt sit sint obcaecati cum molestias qui ipsum iusto error consequatur. Voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore rem laborum beatae adipisci quam, in iste ipsum atque tenetur, reprehenderit accusamus sunt illo eligendi, non vero deleniti. Alias, voluptas numquam!   Who closing atarts here we are and what we do. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti velit sapiente cum quo fugit laboriosam? Saepe sed, eaque architecto sint ea, facere rerum aspernatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium ad ab, incidunt reprehenderit hic perspiciatis, debitis veritatis id deserunt sit sint obcaecati cum molestias qui ipsum iusto error consequatur. Voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore rem laborum beatae adipisci quam, in iste ipsum atque tenetur, reprehenderit accusamus sunt illo eligendi, non vero deleniti. Alias, voluptas numquam!   Who closing atarts here we are and what we do. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti velit sapiente cum quo fugit laboriosam? Saepe sed, eaque architecto sint ea, facere rerum aspernatur temporibus modi.</p>
+  </div>
+  
+  <div id="plan" class="tabcontent">
+    <h3>Plan the project</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium ad ab, incidunt reprehenderit hic perspiciatis, debitis veritatis id deserunt sit sint obcaecati cum molestias qui ipsum iusto error consequatur. Voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore rem laborum beatae adipisci quam, in iste ipsum atque tenetur, reprehenderit accusamus sunt illo eligendi, non vero deleniti. Alias, voluptas numquam!   Who closing atarts here we are and what we do. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti velit sapiente cum quo fugit laboriosam? Saepe sed, eaque architecto sint ea, facere rerum aspernatur temporibus modi doloremque atque recusandae repudiandae! Get in touch, or swing by for a cup of coffee. sit amet, consectetur adipisicing elit. Deleniti velit sapiente cum quo fugit laboriosam? Saepe sed, eaque architecto sint ea, facere rerum aspernatur temporibus modi doloremque atque recusandae repudiandae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt ab et ipsam, asperiores quidem beatae voluptate dolores autem eum a eos quibusdam maxime ducim.<hr></p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia nostrum id tempore incidunt, aliquid quas suscipit commodi ipsa a, saepe delectus sequi at maxime qui. Totam rerum inventore.</p>
+  </div>
+  
+  <div id="execute" class="tabcontent">
+    <h3>Monitor work to ensure it is being performed as planned</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium ad ab, incidunt reprehenderit hic perspiciatis, debitis veritatis id deserunt sit sint obcaecati cum molestias qui ipsum iusto error consequatur. Voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore rem laborum beatae adipisci quam, in iste ipsum atque tenetur, reprehenderit accusamus sunt illo eligendi, non vero deleniti. Alias, voluptas numquam!   Who closing atarts here we are and what we do. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti velit sapiente cum quo fugit laboriosam? Saepe sed, eaque architecto sint ea, facere rerum aspernatur temporibus modi doloremque atque recusandae repudiandae! Who we are and what we do.</p>
+  </div> 
+
+  <div id="Closing" class="tabcontent">
+    <h3>Finish and close the project</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium ad ab, incidunt reprehenderit hic perspiciatis, debitis veritatis id deserunt sit sint obcaecati cum molestias qui ipsum iusto error consequatur. Voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore rem laborum beatae adipisci quam, in iste ipsum atque tenetur, reprehenderit accusamus sunt illo eligendi, non vero deleniti. Alias, voluptas numquam!   Who closing atarts here we are and what we do. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti velit sapiente cum quo fugit laboriosam? Saepe sed, eaque architecto sint ea, facere rerum aspernatur temporibus modi doloremque atque recusandae repudiandae! </p>
+  </div> 
+
 </body>
 </html>

@@ -1,8 +1,39 @@
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+    padding: 20px;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    /* background-color: #555; */
+    background-color: #FF3300;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: #17255A;
+    display: none;
+    padding: 60px 20px;
+    height: 100%;
+  }
+  
+  #pre {background-color: #00E6E6;}
+  #init {background-color: #00E6E6;}
+  #plan {background-color: #00E6E6;}
+  #execute {background-color: #00E6E6}
+  #Closing {background-color: #00E6E6}
