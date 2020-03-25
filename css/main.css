@@ -14,6 +14,11 @@
         flex-grow: 1;
     }
 
+    .card-body
+    {
+        padding: 0px;
+    }
+
     #pre-project
     {
         display: grid;
@@ -60,15 +65,10 @@
         padding: 5px;
     }
 
-    /* .execution-container button
+    .execution-container button
     {
-        height: 5vh;
-        padding-left: 5vw;
-        padding-right: 5vw;
-        margin-right:2vw;
-        margin-left:2vw;
         border-radius: 10px;
-    } */
+    }
 
     #exec-1
     {
@@ -124,7 +124,7 @@
 
     .squish
     {
-        height: 129px;
+        height: 156px;
         display: grid;
         justify-items: center;
     }
@@ -147,6 +147,18 @@
         display: flex;
         justify-content: center;
     }    
+    .plan
+    {
+        font-size: x-small;
+    }
+    .tool
+    {
+        font-size: x-small;
+    }
+    .instruction
+    {
+        font-size: smaller;
+    }
 
 }
 
@@ -221,10 +233,6 @@
 
     .execution-container button
     {
-        /* padding-left: 5vw;
-        padding-right: 5vw; */
-        /* margin-right:2vw;
-        margin-left:2vw;  */
         max-width: 15vw;
         border-radius: 10px;
     }
@@ -296,7 +304,7 @@
 
     .squish
     {
-        height: 130px;
+        height: 156px;
         display: grid;
         justify-items: center;
     }
@@ -372,6 +380,14 @@
         padding-right: 2vw;
     }
 
+    .plan
+    {
+        font-size: x-small;
+    }
+    .tool
+    {
+        font-size: x-small;
+    }
    
 }
 

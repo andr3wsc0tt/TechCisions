@@ -128,15 +128,16 @@ init_Templates = () =>
     var boxes = document.getElementsByClassName("plan");
     var box_obj = new Templates();
     console.log(boxes);
+    var img_dim = "90px";
     for (let i = 0; i < boxes.length; i++)
     {
         /* CSS AND HTML INITIALIZATION */
         boxes[i].title = box_obj.retHovMsg();
         boxes[i].style.backgroundImage = "url('./resources/plan.png')";
-        boxes[i].style.backgroundSize = "75px 75px";
+        boxes[i].style.backgroundSize = `${img_dim} ${img_dim}`;
         boxes[i].style.mixBlendMode = "multiply";
-        boxes[i].style.height = "75px";
-        boxes[i].style.width = "75px";
+        boxes[i].style.height = img_dim;
+        boxes[i].style.width = img_dim;
         boxes[i].style.border = "none";
         boxes[i].parentElement.style.position = "relative";
         boxes[i].parentElement.style.textAlign = "center";
@@ -149,14 +150,15 @@ init_Tools = () =>
     var boxes = document.getElementsByClassName("tool");
     var box_obj = new Templates();
     console.log(boxes);
+    var img_dim = "90px";
     for (let i = 0; i < boxes.length; i++)
     {
         boxes[i].title = box_obj.retHovMsg();
         boxes[i].style.backgroundImage = "url('./resources/tool.png')";
-        boxes[i].style.backgroundSize = "75px 75px";
+        boxes[i].style.backgroundSize = `${img_dim} ${img_dim}`;
         boxes[i].style.mixBlendMode = "multiply";
-        boxes[i].style.height = "75px";
-        boxes[i].style.width = "75px";
+        boxes[i].style.height = img_dim;
+        boxes[i].style.width = img_dim;
         boxes[i].style.border = "none";
         boxes[i].parentElement.style.position = "relative";
         boxes[i].parentElement.style.textAlign = "center";
