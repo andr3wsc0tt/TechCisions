@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,52 +19,55 @@
   <!-- Script(s): -->
   <script type="text/javascript" src="./js/scripts.js" defer></script>
 </head>
+
 <body>
-
-    <div class="logo">
-        <img src="./img/projematic logo wide.png" alt="Projematic LOGO">
+  <header class="head-class">
+    <div class="log-container">
+        <div class="logo">
+            <img src="./img/projematic logo wide.png" alt="Projematic LOGO" id="logo-id">
+          </div>
+      <form action="/action_page.php" class="form-class">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="User Name" name="text3">
+        </div>
+  
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Password" name="text3">
+        </div>
+        <button type="submit" class="btn btn-primary">Log in</button>
+      </form>
     </div>
-    
-    <div class="container">
-        <h2>Log-In </h2>
-        <p>Please login or subscribe to view the full content</p>
-        <form action="/action_page.php">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="User Name" name="text3">
-          </div>
-          
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Password" name="text3">
-          </div>
-          <button type="submit" class="btn btn-primary">Enter</button>
-        </form>
-      </div><hr>
+  </header>
 
-      <div class="container">
-        <h2>or Sign Up </h2>
-        
-        <form action="/action_page.php">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Enter an User Name" name="text3">
-          </div>
-          <div class="form-group">
-            <input type="email" class="form-control" placeholder="Enter Your Email" name="text3">
-          </div>
-          
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Password" name="text3">
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Re-enter Password" name="text3">
-          </div>
-          <button type="submit" class="btn btn-primary">Sign Up</button>
-        </form>
+  
+  <hr>
+
+  <div class="container">
+    <h2>Sign Up </h2>
+    <p>Please login or subscribe to view the full content</p>
+    <form action="/action_page.php">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Enter an User Name" name="text3">
       </div>
-    <hr>
-      
-      <footer>
-          <h6>Projematic &copy; 2020. All rights reserved.</h6>
-      </footer>
+      <div class="form-group">
+        <input type="email" class="form-control" placeholder="Enter Your Email" name="text3">
+      </div>
+
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Password" name="text3">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Re-enter Password" name="text3">
+      </div>
+      <button type="submit" class="btn btn-primary">Sign Up</button>
+    </form>
+  </div>
+  <hr>
+
+  <footer>
+    <h6>Projematic &copy; 2020. All rights reserved.</h6>
+  </footer>
 
 </body>
+
 </html>

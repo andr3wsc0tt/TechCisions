@@ -1,16 +1,90 @@
+@media only screen and (max-width: 600px) 
+{
+    html, body {
+        background-color: #fcf7f8;
+        font-family: tahoma, georgia;
+    }
+
+    h2 {
+        font-size: 4vh;
+    }
+    
+    .log-container
+    {
+        display: flex;
+        margin: 1vh;
+        height: 2vh;
+        
+    }
+
+    footer {
+        text-align: center;
+    }
+    #logo-id
+    {
+        margin-right: 7vw;
+        height: 2.5vh;
+    }
+
+    .head-class
+    {
+        display: flex;
+    }
+
+    .form-class
+    {
+        display: flex;
+        flex-grow: inherit;
+    }
+
+    .form-class .form-group
+    {
+        height: 4vh;
+        padding: 0px;
+        margin-top: 0.5vh;
+        margin-left: 1vh;
+        margin-bottom: 0;
+    }
+
+    .form-class .form-group .form-control
+    {
+        height: 3vh;
+        padding: 0px;
+        font-size: 2vh;
+        border-radius: 0;
+    }
+
+    .form-class .btn
+    {
+        margin-top: 1vh;
+        margin-left: 2vw;
+        height: 2vh;
+        padding-left:0.5vw;
+        padding-right:0.5vw;
+        font-size: x-small;
+        line-height: 0vh;
+        border-radius: 0;
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (min-width: 600px) 
+{
+
 html, body {
     background-color: #fcf7f8;
     font-family: tahoma, georgia;
 }
 
 .container {
-    padding: 10px 100px 10px 100px;
+    display: grid;
+    justify-content: left;
 }
 
     .logo {
-    margin: auto;
-    width: 70%;
-    padding: 30px;
+    display: grid;
+    justify-content: center;
+    margin: 2vw;
     }
 
     h2 {
@@ -21,3 +95,4 @@ footer {
     text-align: center;
 }
 
+}
