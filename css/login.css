@@ -15,7 +15,7 @@
     {
         display: flex;
         margin: 1vh;
-        height: 2vh; 
+        margin-bottom: 2vh;
     }
 
     .sign-container
@@ -44,7 +44,6 @@
     {
         display: flex;
         border-bottom: solid blue 1px;
-        padding-bottom: 20px;
     }
 
     .form-class
@@ -68,7 +67,7 @@
     {
         height: 5vh;
         padding: 0px;
-        font-size: 3vh;
+        font-size: 2vh;
         border-radius: 2px;
     }
 
@@ -76,11 +75,10 @@
     {
         background-color:#003399;
         padding-bottom: 20px;
-        margin-top: 0.5vh;
+        margin-top: 0.75vh;
         margin-left: 2vw;
-        margin-bottom: 20px;
         height: 3vh;
-        line-height: 1.5vh;
+        line-height: 2vh;
         border-radius: 2px;
         white-space: nowrap;
     } 
@@ -178,14 +176,10 @@
     {
         background-color: #003399;
         padding-bottom: 20px;
-
-        margin-top: 0.5vh;
+        margin-top: 1vh;
         margin-left: 2vw;
-
-        margin-bottom: 20px;
-
-        height: 3vh;
-        line-height: 1.5vh;
+        height: 4vh;
+        line-height: 2.5vh;
         border-radius: 2px;
         white-space: nowrap;
     }

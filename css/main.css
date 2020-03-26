@@ -1,6 +1,8 @@
 html {
     padding-top: 10px;
     font-family: tahoma, georgia;
+    background-color: #fcf7f8;
+
 }
 
 input {
@@ -43,6 +45,19 @@ input {
         flex-shrink: 0;
     }
 
+    .log-container
+    {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 1vh;
+        height: 5vh;
+        width: 100%;
+    }
+
+    #main-pass
+    {
+        margin-left: 2vw;
+    }
     .card-body
     {
         padding: 0px;
@@ -200,6 +215,7 @@ input {
         display: flex;
         padding-bottom: 2vh;
         border-bottom: solid blue 1px;
+        background-color: #fcf7f8;
     }
 
     .form-class
@@ -228,15 +244,12 @@ input {
     #loginbutton
     {
         background-color: #003399;
-        padding-bottom: 20px;
-        margin-top: 0.5vh;
+        margin-top: 2vh;
         margin-left: 2vw;
-        margin-bottom: 20px;
-        height: 3vh;
-        line-height: 1.5vh;
-        border-radius: 5px;
+        height: 2.5vh;
+        line-height: 0.5vh;
         white-space: nowrap;
-        width: inherit;
+        width: auto;
         color: white;
     }
 
@@ -479,6 +492,7 @@ input {
         display: flex;
         border-bottom: solid blue 2px;
         padding-bottom: 20px;
+        background-color: #fcf7f8;
        
     }
 
@@ -523,16 +537,20 @@ input {
     #loginbutton
     {
         background-color: #003399;
-        padding-bottom: 20px;
-        margin-top: 0.5vh;
+        margin-top: 2vh;
         margin-left: 2vw;
-        height: 3vh;
+        height: 4vh;
         line-height: 1.5vh;
-        border-radius: 5px;
+        border-radius: 1px;
         white-space: nowrap;
-        width: inherit;
+        width: auto;
         color: white;
         font-size: 16px;
+    }
+
+    #main-pass
+    {
+        margin-left:2vw;
     }
 
 }
