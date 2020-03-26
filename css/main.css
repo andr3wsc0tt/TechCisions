@@ -1,8 +1,23 @@
+html {
+    padding-top: 10px;
+    background-color: #FCF7F8;
+}
+
+input {
+    padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
 @media only screen and (max-width: 600px) 
 {
     .btn.btn-primary
     {
-        background-color: red;
+        background-color:red;
+        color: white;
         margin: 1px;
         border-radius: 0;
         width: 100%;
@@ -212,9 +227,11 @@
 
     #loginbutton
     {
-        background-color: blue;
+        background-color: rgb(0, 255, 85);
+        padding-bottom: 20px;
         margin-top: 0.5vh;
         margin-left: 2vw;
+        margin-bottom: 20px;
         height: 3vh;
         line-height: 1.5vh;
         border-radius: 0;
@@ -230,16 +247,20 @@
 {
     .btn.btn-primary
     {
-        background-color: cyan;
-        color: blue;
+        background-color: #003399;
+        color: white;
         text-align: center;
         border-radius: 0;
         margin: 1px;
-        border: solid black 1px;
         width: 100%;
+        font-size: 1.8vw;
+        font-weight: bold;
+        border: solid black 1px;
+        
     }
     .nav-item
     {
+        /* padding-top: 0px; */
         flex-grow: 1;
     }
     .row
@@ -455,9 +476,12 @@
 
     .head-class
     {
+        
         margin-top: 2vh;
         display: flex;
         border-bottom: solid blue 2px;
+        padding-bottom: 20px;
+       
     }
 
     .log-container
@@ -467,6 +491,7 @@
         margin: 1vh;
         height: 5vh;
         width: 100%;
+      
         
     }
 
@@ -484,44 +509,47 @@
 
     .form-class .form-group
     {
-        height: 4vh;
-        padding: 0px;
+        /* background-color: green; */
+        height: 6vh;
+        padding-bottom: 20px;
         margin-top: 0.5vh;
         margin-left: 1vh;
-        margin-bottom: 0;
+        
+
     }
 
     .form-class .form-group .form-control
     {
-        height: 3vh;
-        padding: 0px;
-        font-size: 2vh;
-        border-radius: 0;
+        height: 6vh;
+        padding-bottom: 10px;
+        font-size: 3vh;
+        border-radius: 5px;
+        margin-bottom: 40px;
     }
 
     #loginbutton
     {
-        background-color: blue;
+        background-color: red;
+        padding-bottom: 20px;
+        /* margin-top: 0.5vh; */
         margin-top: 0.5vh;
         margin-left: 2vw;
         height: 3vh;
         line-height: 1.5vh;
-        border-radius: 0;
+        border-radius: 5px;
         white-space: nowrap;
         width: inherit;
         color: white;
+        font-size: 16px;
     }
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) 
-{
-
+{    
 }
-
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) 
 {
-    
 }
