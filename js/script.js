@@ -61,11 +61,6 @@ class Templates extends Box
             newName.document.body.append(tempLink);
             
             newName.console.log(newName.document.body);
-            
-            for (var el in newName.document.body)
-            {
-                newName.write(el);
-            }
 
             newName.document.close();
                     
@@ -127,11 +122,6 @@ class Activities extends Box
         tempLink.href = `www.${filename}.html`;
         newName.document.body.append(tempLink);
         
-        for (var el in body)
-        {
-            newName.write(el);
-        }
-
         newName.document.close();
                 
     }
