@@ -1,6 +1,6 @@
 html {
     padding-top: 10px;
-    background-color: #FCF7F8;
+    font-family: tahoma, georgia;
 }
 
 input {
@@ -16,7 +16,7 @@ input {
 {
     .btn.btn-primary
     {
-        background-color:red;
+        background-color:#003399;
         color: white;
         margin: 1px;
         border-radius: 0;
@@ -227,14 +227,14 @@ input {
 
     #loginbutton
     {
-        background-color: rgb(0, 255, 85);
+        background-color: #003399;
         padding-bottom: 20px;
         margin-top: 0.5vh;
         margin-left: 2vw;
         margin-bottom: 20px;
         height: 3vh;
         line-height: 1.5vh;
-        border-radius: 0;
+        border-radius: 5px;
         white-space: nowrap;
         width: inherit;
         color: white;
@@ -260,7 +260,6 @@ input {
     }
     .nav-item
     {
-        /* padding-top: 0px; */
         flex-grow: 1;
     }
     .row
@@ -395,7 +394,6 @@ input {
     }
     .squish .plan
     {
-        /* position: absolute; */
         top:0;
     }
     .squish .tool
@@ -491,8 +489,6 @@ input {
         margin: 1vh;
         height: 5vh;
         width: 100%;
-      
-        
     }
 
     #logo-id
@@ -509,13 +505,10 @@ input {
 
     .form-class .form-group
     {
-        /* background-color: green; */
         height: 6vh;
         padding-bottom: 20px;
         margin-top: 0.5vh;
         margin-left: 1vh;
-        
-
     }
 
     .form-class .form-group .form-control
@@ -529,9 +522,8 @@ input {
 
     #loginbutton
     {
-        background-color: red;
+        background-color: #003399;
         padding-bottom: 20px;
-        /* margin-top: 0.5vh; */
         margin-top: 0.5vh;
         margin-left: 2vw;
         height: 3vh;

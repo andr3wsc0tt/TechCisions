@@ -1,9 +1,10 @@
-@media only screen and (max-width: 600px) 
-{
+ 
     html, body {
         background-color: #fcf7f8;
         font-family: tahoma, georgia;
     }
+
+    @media only screen and (max-width: 600px){
 
     h2 {
         font-size: 4vh;
@@ -14,8 +15,7 @@
     {
         display: flex;
         margin: 1vh;
-        height: 2vh;
-        
+        height: 2vh; 
     }
 
     .sign-container
@@ -43,8 +43,8 @@
     .head-class
     {
         display: flex;
-        padding-bottom: 2vh;
         border-bottom: solid blue 1px;
+        padding-bottom: 20px;
     }
 
     .form-class
@@ -60,30 +60,34 @@
         margin-top: 0.5vh;
         margin-left: 1vh;
         margin-bottom: 0;
+        
+        padding-bottom: 20px;
     }
 
     .form-class .form-group .form-control
     {
-        height: 3vh;
+        height: 5vh;
         padding: 0px;
-        font-size: 2vh;
-        border-radius: 0;
+        font-size: 3vh;
+        border-radius: 2px;
     }
 
-    .form-class .btn
+     .form-class .btn
     {
-        margin-top: 1vh;
+        background-color:#003399;
+        padding-bottom: 20px;
+        margin-top: 0.5vh;
         margin-left: 2vw;
-        height: 2vh;
-        padding-left:1vw;
-        padding-right:1vw;
-        padding-bottom:1.75vw;
-        font-size: x-small;
-        line-height: 0vh;
-        border-radius: 0;
+        margin-bottom: 20px;
+        height: 3vh;
+        line-height: 1.5vh;
+        border-radius: 2px;
         white-space: nowrap;
+    } 
+    .btn-primary {
+        background-color: #003399;
     }
-}
+    }
 
 @media only screen and (min-width: 600px) 
 {
@@ -137,6 +141,7 @@
         margin-top: 2vh;
         display: flex;
         border-bottom: solid blue 2px;
+        padding-bottom: 20px;
     }
 
     .sign-container form
@@ -158,24 +163,34 @@
         margin-top: 0.5vh;
         margin-left: 1vh;
         margin-bottom: 0;
+        padding-bottom: 20px;
     }
 
     .form-class .form-group .form-control
     {
-        height: 3vh;
+        height: 5vh;
         padding: 0px;
-        font-size: 2vh;
-        border-radius: 0;
+        font-size: 3vh;
+        border-radius: 2px;
     }
 
     .form-class .btn
     {
+        background-color: #003399;
+        padding-bottom: 20px;
+
         margin-top: 0.5vh;
         margin-left: 2vw;
+
+        margin-bottom: 20px;
+
         height: 3vh;
         line-height: 1.5vh;
-        border-radius: 0;
+        border-radius: 2px;
         white-space: nowrap;
+    }
+    .btn-primary {
+        background-color: #003399;
     }
 
     #uname
@@ -187,4 +202,5 @@
         width: 20vw;
     }
 
-}
+} 
+
