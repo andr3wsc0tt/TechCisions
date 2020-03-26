@@ -1,4 +1,3 @@
-
 class Box
 {
     constructor()
@@ -23,7 +22,7 @@ class Templates extends Box
         return super.retHovMsg();
     }
 
-    popUp = (name) =>
+    popUp (name)
     {
         var filename = name;
         filename = filename.replace(/\s+/g, '-').toLowerCase();
@@ -65,11 +64,6 @@ class Templates extends Box
             newName.document.body.append(tempLink);
             
             newName.console.log(newName.document.body);
-            
-            for (var el in body)
-            {
-                newName.write(el);
-            }
 
             newName.document.close();
                     
@@ -95,7 +89,7 @@ class Activities extends Box
         return super.retHovMsg();
     }
 
-    popUp = (name) =>
+    popUp (name)
     {
         var filename = name;
         filename = filename.replace(/\s+/g, '-').toLowerCase();
@@ -132,11 +126,6 @@ class Activities extends Box
         tempLink.href = `www.${filename}.html`;
         newName.document.body.append(tempLink);
         
-        for (var el in body)
-        {
-            newName.write(el);
-        }
-
         newName.document.close();
                 
     }
@@ -162,6 +151,7 @@ init_Templates = () =>
     {
         /* CSS AND HTML INITIALIZATION */
         boxes[i].title = box_obj.retHovMsg();
+        boxes[i].href = "../popUp.html";
         boxes[i].style.backgroundImage = "url('./resources/plan.png')";
         boxes[i].style.backgroundSize = `${img_dim} ${img_dim}`;
         boxes[i].style.mixBlendMode = "multiply";
