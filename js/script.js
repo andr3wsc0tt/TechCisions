@@ -115,10 +115,10 @@ class Activities extends Box
         newName.document.body.append(unLabel);
         newName.document.body.appendChild(unorder);
         
-        for (let i = 0; i < 5; i++)
+        for (let k = 0; k < 5; k++)
         {
             var listItem = newName.document.createElement("li");
-            listItem.innerHTML = `Template ${i}`;
+            listItem.innerHTML = `Template ${k}`;
             unorder.appendChild(listItem);
         }
 
@@ -147,21 +147,21 @@ init_Templates = () =>
     var box_obj = new Templates();
     console.log(boxes);
     var img_dim = "90px";
-    for (let i = 0; i < boxes.length; i++)
+    for (let r = 0; r < boxes.length; r++)
     {
         /* CSS AND HTML INITIALIZATION */
-        boxes[i].title = box_obj.retHovMsg();
-        boxes[i].href = "../popUp.html";
-        boxes[i].style.backgroundImage = "url('./resources/plan.png')";
-        boxes[i].style.backgroundSize = `${img_dim} ${img_dim}`;
-        boxes[i].style.mixBlendMode = "multiply";
-        boxes[i].style.height = img_dim;
-        boxes[i].style.width = img_dim;
-        boxes[i].style.border = "none";
-        boxes[i].parentElement.style.position = "relative";
-        boxes[i].parentElement.style.textAlign = "center";
+        boxes[r].title = box_obj.retHovMsg();
+        boxes[r].href = "../popUp.html";
+        boxes[r].style.backgroundImage = "url('./resources/plan.png')";
+        boxes[r].style.backgroundSize = `${img_dim} ${img_dim}`;
+        boxes[r].style.mixBlendMode = "multiply";
+        boxes[r].style.height = img_dim;
+        boxes[r].style.width = img_dim;
+        boxes[r].style.border = "none";
+        boxes[r].parentElement.style.position = "relative";
+        boxes[r].parentElement.style.textAlign = "center";
 
-        boxes[i].addEventListener("click", () => {box_obj.popUp(boxes[i].textContent);}, false);
+        boxes[r].addEventListener("click", () => {box_obj.popUp(boxes[r].textContent);}, false);
     }
 }
 init_Tools = () =>
@@ -170,19 +170,19 @@ init_Tools = () =>
     var box_obj = new Templates();
     console.log(boxes);
     var img_dim = "90px";
-    for (let i = 0; i < boxes.length; i++)
+    for (let m = 0; m < boxes.length; m++)
     {
-        boxes[i].title = box_obj.retHovMsg();
-        boxes[i].style.backgroundImage = "url('./resources/tool.png')";
-        boxes[i].style.backgroundSize = `${img_dim} ${img_dim}`;
-        boxes[i].style.mixBlendMode = "multiply";
-        boxes[i].style.height = img_dim;
-        boxes[i].style.width = img_dim;
-        boxes[i].style.border = "none";
-        boxes[i].parentElement.style.position = "relative";
-        boxes[i].parentElement.style.textAlign = "center";
+        boxes[m].title = box_obj.retHovMsg();
+        boxes[m].style.backgroundImage = "url('./resources/tool.png')";
+        boxes[m].style.backgroundSize = `${img_dim} ${img_dim}`;
+        boxes[m].style.mixBlendMode = "multiply";
+        boxes[m].style.height = img_dim;
+        boxes[m].style.width = img_dim;
+        boxes[m].style.border = "none";
+        boxes[m].parentElement.style.position = "relative";
+        boxes[m].parentElement.style.textAlign = "center";
 
-        boxes[i].addEventListener("click", () => {box_obj.popUp(boxes[i].textContent);}, false);
+        boxes[m].addEventListener("click", () => {box_obj.popUp(boxes[i].textContent);}, false);
     }
 }
 init_Activitives = () =>
@@ -190,10 +190,10 @@ init_Activitives = () =>
     var boxes = document.getElementsByClassName("instruction");
     var box_obj = new Activities();
     console.log(boxes);
-    for (let i = 0; i < boxes.length; i++)
+    for (let q = 0; q < boxes.length; q++)
     {
-        boxes[i].title = box_obj.retHovMsg();
-        boxes[i].addEventListener("click", () => {box_obj.popUp(boxes[i].textContent);}, false);
+        boxes[q].title = box_obj.retHovMsg();
+        boxes[q].addEventListener("click", () => {box_obj.popUp(boxes[q].textContent);}, false);
     }
 }
 
