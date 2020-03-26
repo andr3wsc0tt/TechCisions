@@ -182,7 +182,7 @@ init_Tools = () =>
         boxes[m].parentElement.style.position = "relative";
         boxes[m].parentElement.style.textAlign = "center";
 
-        boxes[m].addEventListener("click", () => {box_obj.popUp(boxes[i].textContent);}, false);
+        boxes[m].addEventListener("click", () => {box_obj.popUp(boxes[m].textContent);}, false);
     }
 }
 init_Activitives = () =>
