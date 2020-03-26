@@ -28,6 +28,7 @@ class Templates extends Box
         var filename = name;
         filename = filename.replace(/\s+/g, '-').toLowerCase();
         var newName = window.open('https://andr3wsc0tt.github.io/TechCisions/popUp.html');
+        // var newName = window.open("./popUp.html");
 
         newName.onload = function()
         {
@@ -50,6 +51,8 @@ class Templates extends Box
             heading3.style.display = "inline";
             dlLink.innerHTML = name;
             dlLink.href = "https://andr3wsc0tt.github.io/TechCisions/login.html";
+            // dlLink.href = "./login.html";
+
             dlLink.style.display = "block";
             newName.document.body.append(heading3);
             newName.document.body.append(dlLink);
@@ -97,6 +100,7 @@ class Activities extends Box
         var filename = name;
         filename = filename.replace(/\s+/g, '-').toLowerCase();
         var newName = window.open('https://andr3wsc0tt.github.io/TechCisions/popUp.html');
+        // var newName = window.open("./popUp.html");
 
         newName.onload = function()
         {
