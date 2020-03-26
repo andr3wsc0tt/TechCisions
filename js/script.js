@@ -1,4 +1,3 @@
-
 class Box
 {
     constructor()
@@ -23,7 +22,7 @@ class Templates extends Box
         return super.retHovMsg();
     }
 
-    popUp = (name) =>
+    popUp (name)
     {
         var filename = name;
         filename = filename.replace(/\s+/g, '-').toLowerCase();
@@ -63,7 +62,7 @@ class Templates extends Box
             
             newName.console.log(newName.document.body);
             
-            for (var el in body)
+            for (var el in newName.document.body)
             {
                 newName.write(el);
             }
@@ -92,7 +91,7 @@ class Activities extends Box
         return super.retHovMsg();
     }
 
-    popUp = (name) =>
+    popUp (name)
     {
         var filename = name;
         filename = filename.replace(/\s+/g, '-').toLowerCase();
@@ -158,6 +157,7 @@ init_Templates = () =>
     {
         /* CSS AND HTML INITIALIZATION */
         boxes[i].title = box_obj.retHovMsg();
+        boxes[i].href = "../popUp.html";
         boxes[i].style.backgroundImage = "url('./resources/plan.png')";
         boxes[i].style.backgroundSize = `${img_dim} ${img_dim}`;
         boxes[i].style.mixBlendMode = "multiply";
